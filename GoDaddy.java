@@ -23,6 +23,8 @@ public class GoDaddy {
     private static WebDriver driver= null;
     
     public static void main(String[] args) {
+        
+        // I have chosen Chrome for browser 
         System.setProperty("webdriver.chrome.driver","C:\\Program Files\\NetBeans 8.2\\ChromeDriver\\chromedriver.exe");
         driver = new ChromeDriver();
         
